@@ -1,0 +1,144 @@
+.iconHeaderHome {
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  background: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  float: right;
+}
+._homeHeaderIcon {
+  font-size: 1.5rem !important;
+  color: #1b284b !important;
+  text-align: center !important;
+  margin: auto;
+}
+
+._componentHome {
+  margin-top: 1rem;
+}
+
+.homeChearch {
+  padding: 0.5rem;
+}
+
+.searchHome input {
+  box-shadow: none !important;
+  background: rgb(255, 255, 255) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 700;
+}
+.bar {
+  height: 8px;
+  background: #ececec88;
+}
+
+.searchHome input::placeholder {
+  color: #838faf;
+  font-weight: 700;
+}
+
+._listMenu {
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.iconHome {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fbe5ee;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #e5628b !important;
+  margin-right: 1rem;
+}
+.iconHome1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fdf2e2;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #d58535 !important;
+  margin-right: 1rem;
+}
+.iconHome2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e7fcf7 !important;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #51b291 !important;
+  margin-right: 1rem;
+}
+
+.iconHome3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #a8f0fa86 !important;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #10865f !important;
+  margin-right: 1rem;
+  ._iconHomeImg {
+    color: #91eefa !important;
+  }
+}
+
+.iconHome4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #9ab8fc50 !important;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #1b294b;
+  margin-right: 1rem;
+  ._iconHomePhone {
+    color: #1b294b;
+  }
+}
+.lietItems:nth-last-child() {
+  padding-bottom: 4rem;
+}
+
+._iconHome {
+  font-size: 1.5rem;
+}
+
+h3.listTitle {
+  font-size: 15px;
+  color: #1b294b;
+  font-weight: 700 !important;
+}
+
+.listTxt {
+  font-size: 10px;
+  color: #5d6e7b;
+  font-weight: 500 !important;
+}
+
+._iconHomeData {
+  font-size: 1.5rem;
+  color: #51b291;
+}
+.lietItems {
+  margin-top: 1rem;
+}

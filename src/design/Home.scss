@@ -1,0 +1,245 @@
+._productHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  .icon-backs {
+    width: auto;
+    position: relative;
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    color: rgb(8, 33, 70);
+    z-index: 100;
+    opacity: 1;
+  }
+
+  .iconHeader {
+    width: 45px;
+    height: 45px;
+    border-radius: 50% !important;
+    background: #dbe6ff93;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+
+    ._headerIcons {
+      font-size: 1.5rem !important;
+      color: rgb(8, 33, 70);
+      text-align: center !important;
+      margin: auto;
+    }
+  }
+  ._productTitle h3 {
+    font-weight: 600;
+    color: rgb(8, 33, 70);
+    font-size: 1rem;
+  }
+}
+.card {
+  padding: 0.5rem;
+  box-shadow: 0px 0px 8px 1px rgba(199, 199, 199, 0.5);
+  border-radius: 7px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 4rem;
+
+  .logoProfile {
+    min-width: 130px;
+    min-height: 130px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #f2f7fc;
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    ion-avatar {
+      width: 120px;
+      height: 120px;
+      margin: auto !important;
+    }
+  }
+
+  .logoProfile h2 {
+    font-size: 30px !important;
+    font-weight: 600;
+    color: #49587d;
+  }
+
+  .profile_container {
+    margin-top: 5rem;
+
+    h2 {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 17px;
+      color: #1b294b;
+      span {
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 17px;
+        color: #1b294b;
+      }
+    }
+
+    .iconHeaders {
+      cursor: pointer;
+    }
+
+    p {
+      font-weight: 500;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 18.29px;
+      color: #828faf;
+      padding: 0.5rem 0.5rem;
+      margin-top: 0.5rem;
+    }
+    span {
+      font-weight: 600;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 18.29px;
+      color: #7d8eb9;
+      padding: 0.5rem 0.5rem;
+    }
+    .caProfile {
+      font-size: 15px !important;
+      color: #16c48b;
+      font-weight: 700 !important;
+      padding-top: 1.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+._homeComponent {
+  margin-top: -1rem;
+  padding-bottom: 2rem;
+  .homecardHeader {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 14px;
+      color: #7d8eb9;
+    }
+  }
+  .homeIconInfo {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(198, 211, 223, 0.3);
+    display: flex;
+    align-items: center;
+  }
+
+  .infoIc {
+    font-size: 9px;
+    margin: auto;
+  }
+  ._blocks {
+    display: flex;
+    justify-content: space-between;
+  }
+  ._block1 {
+    height: 7px;
+    width: 18%;
+    border-radius: 15px;
+    background: #b86161;
+  }
+
+  ._block2 {
+    height: 7px;
+    width: 80%;
+    border-radius: 15px;
+    background: #16c48b;
+  }
+  ._cardHContent {
+    padding: 0 1rem;
+
+    .homeSocialIcon {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem 0;
+
+      ._icon {
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        padding: 1rem;
+        transition: all 0.3s ease;
+        &:hover {
+          background: #d5e1ff8c;
+          border-radius: 10px;
+        }
+        h3 {
+          font-size: 13px;
+          color: #1b294b;
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
+
+        .iconSosial {
+          margin: auto;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background: #dbe6ff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #16c48b;
+        }
+      }
+    }
+  }
+  .contact_ {
+    padding-bottom: 1rem;
+    display: block;
+  }
+
+  .outputC {
+    width: 100%;
+    padding: 0 0.4rem;
+  }
+
+  .outputC p {
+    color: #aebad6;
+    font-size: 13px;
+  }
+
+  .outputC h3 {
+    color: #1b294b;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .inputC {
+    width: 100%;
+    padding: 0 0.4rem;
+    display: block;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .inputC h3 {
+    color: #1b294b;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .inputC p {
+    color: #828fb0;
+    font-size: 13px;
+  }
+}
