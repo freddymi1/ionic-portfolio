@@ -28,7 +28,7 @@ export const Menu: React.FC = ()=> {
                     <div className="bar"></div>
                     <div className="_listMenu">
                         <IonList lines="none">
-                            <IonItem routerLink="/comptability">
+                            <IonItem routerLink="/skills">
                                 <div className="iconHome">
                                     <FaLaptopCode className="_iconHome"/>
                                 </div>

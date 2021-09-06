@@ -1,0 +1,43 @@
+.accordion_section {
+  display: flex;
+  flex-direction: column;
+}
+.accordion {
+  color: rgb(253, 253, 253);
+  font-weight: 900;
+  align-items: center;
+  outline: none;
+  display: flex;
+}
+
+.accordion_title {
+  display: flex;
+  font-size: 1rem;
+}
+.accordion_icon {
+  margin-left: auto;
+  transition: transform 0.5s ease;
+}
+
+.accordeon_header {
+  cursor: pointer;
+}
+
+.imgIcon {
+  width: 15px;
+  opacity: 0.5;
+}
+.rotate {
+  transform: rotate(90deg);
+  color: #1b294b !important;
+}
+.accordion_content {
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  color: rgb(51, 51, 51);
+}
+.accordion_text {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: justify;
+}

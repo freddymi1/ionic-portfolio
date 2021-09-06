@@ -23,8 +23,11 @@ import './design/theme/variables.css';
 import './design/Home.scss'
 import './design/Tabs.scss'
 import './design/Menu.scss'
+import './design/Competence.scss'
+import './design/Amborger.scss'
 import { Dashboard } from './pages/Dashboard/Dashboard';
 import { Menu } from './pages/Menu/Menu';
+import { Skills } from './pages/Competence/Competence';
 
 const App: React.FC = () => (
   <IonApp>
@@ -35,6 +38,7 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/dashboard" component={Dashboard}/>
         <Route exact path="/menu" component={Menu}/>
+        <Route exact path="/skills" component={Skills}/>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
