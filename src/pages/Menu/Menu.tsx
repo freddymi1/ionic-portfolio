@@ -37,7 +37,7 @@ export const Menu: React.FC = ()=> {
                                     <p className="listTxt">Afficher mes compétence</p>
                                 </IonLabel>
                             </IonItem>
-                            <IonItem className="lietItems" routerLink="/product">
+                            <IonItem className="lietItems" routerLink="/experiences">
                                 <div className="iconHome1">
                                     <FiSettings className="_iconHome"/>
                                 </div>

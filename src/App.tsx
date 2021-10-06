@@ -28,6 +28,7 @@ import './design/Amborger.scss'
 import { Dashboard } from './pages/Dashboard/Dashboard';
 import { Menu } from './pages/Menu/Menu';
 import { Skills } from './pages/Competence/Competence';
+import { Experiences } from './pages/Experience/Experiences';
 
 const App: React.FC = () => (
   <IonApp>
@@ -39,6 +40,7 @@ const App: React.FC = () => (
         <Route exact path="/dashboard" component={Dashboard}/>
         <Route exact path="/menu" component={Menu}/>
         <Route exact path="/skills" component={Skills}/>
+        <Route exact path="/experiences" component={Experiences}/>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

@@ -22,7 +22,7 @@ export const Dashboard: React.FC = () => {
                         <FiMoreHorizontal className="_headerIcons"/>
                     </div>
                 </div>
-                <div className="ion-padding">
+                <div className="_dashHeader">
                     <div className="card">
                         <div className="logoProfile">
                             <IonAvatar>
